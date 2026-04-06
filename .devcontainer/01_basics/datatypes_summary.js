@@ -29,18 +29,44 @@ let myObj={
     age:23,
 }
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
+// }
+
+// console.log(typeof bigNumber);
+// console.log(typeof score);
+// console.log(typeof isLoggedIn);
+// console.log(typeof outsideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof id);
+// console.log(typeof anotherId);
+// console.log(typeof myObj);
+// console.log(typeof heros);
+// console.log(typeof myFunction);
+
+// Stack (Primitive)
+
+let myYouTubename = "hiteshchoudharydotcom"
+
+let anothername = myYouTubename
+anothername = "Chai_aur_Code"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+// Heap (Non-Primitive)
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
 }
 
-console.log(typeof bigNumber);
-console.log(typeof score);
-console.log(typeof isLoggedIn);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof id);
-console.log(typeof anotherId);
-console.log(typeof myObj);
-console.log(typeof heros);
-console.log(typeof myFunction);
+let  userTwo = userOne
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
